@@ -11,6 +11,7 @@ body {
 .container {
     margin-top: 25px;
     margin-bottom: 25px;
+    padding-top: 25px;
 }
 
 #sidebar {
@@ -46,10 +47,25 @@ body {
     font-style: oblique;
 }
 
+
+
+
+/* #sidebar2 {
+    clear: both;
+    display: inline-block; */
+} */
+
 #explanation {
     background-color: rgb(0, 0, 0);
+    /* margin-left: 250px; */
+    /* padding: 6px 8px 6px 16px;
+    float: left; */
+    /* z-index: -1; */
+    /* background-color: blanchedalmond; */
+    /* position: relative;
+    border-style: inset; */
+    /* margin: 5px; */
 }
-
 #explanation img {
     float: left;
     padding-right: 10px;
@@ -59,6 +75,12 @@ body {
     margin: 10px;
     font-size:x-large
 }
+
+
+
+/* .main p {
+    margin-top: 100px;
+} */
 
 .navbar {
     align-items: right;
@@ -97,6 +119,10 @@ body {
     display: none;
     position: absolute;
     background-color: #ffffff;
+    /* min-width: 160px; */
+    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+    /* z-index: 1;  */
+    /* clear: both; */
     color: black;
     z-index: 1;
   }
@@ -107,11 +133,13 @@ body {
     clear: both;}    
 
 .comp {
+    /* margin: 50px; */
     margin: auto;
 }
 
 #comparisons {
     background-color: white;
+    margin-top: 50px;
 }
 
 #comparisons h1 {
@@ -146,8 +174,12 @@ body {
 
 .table-responsive {
     margin: auto;
+    padding: 20px;
+    margin-top: 45px;
 }
 
 .table-responsive h1 {
     font-style: oblique;
 }
+
+
