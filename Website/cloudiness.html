@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF8">
+    <title> Latitude Vs. Cloudiness </title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<!-- navbar  -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse w-100 order-3 dual-collapse2" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <div class="dropdown">
+                <a class="nav-link">Plots <span class="sr-only">(current)</span></a>
+                <!-- <button type="button"> Plots</button> -->
+                <div class="dropdown_links">
+                    <a href="temperature.html">Temperature </a>
+                    <a href="humidity.html">Humidity </a>
+                    <a href="cloudiness.html">Cloudiness </a>
+                    <a href="wind_speed.html">Wind Speed </a>
+                </div>
+            </div>
+            <li class="nav-item active">
+                <a class="nav-link" href="comparison.html">Comparisons <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="data.html">Data <span class="sr-only">(current)</span></a>
+            </li>
+            </ul>
+        </div>
+    </nav>
+
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10">
+                <div class="visualisation">
+                    <h1> Cloudiness </h1><hr></hr>
+                    <img src="../Resources/Fig3.png" alt="cloudiness">
+                    <p> Once again, we do not see any strict correlation between latitude and cloudiness.
+                        We also see a much more even distribution of cloudiness %, than the previous plot, 
+                        stelling us that cloudiness, humidity and temperature do not have a necesary correlation either.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

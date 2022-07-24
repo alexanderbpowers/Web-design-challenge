@@ -1,0 +1,214 @@
+body {
+    background-color: rgb(165, 249, 249);
+}
+
+.container-fluid {
+    margin: 35px;
+    margin-right: 50px;
+    padding-top: 25px;
+}
+
+.container {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#sidebar {
+    background-color: rgb(175, 200, 200);
+    /* height: 100%; */
+    /* width: 250px; */
+    position: relative;
+    /* z-index: -1; */
+    /* display: block; */
+    overflow-x: hidden;
+    /* padding-top: 20px; */
+    /* margin: 5px; */
+    border-style: inset;
+    border-radius: 10px;
+}
+
+#sidebar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #070707;
+    display: grid;
+    float: left;
+    border-radius: 12%;
+    /* border: #1e43ff; */
+    /* border-style: inset; */
+    margin: 10px 5px 5px;
+    align: center;
+    /* border-width: 5px; */
+  }
+
+#sidebar img {
+    display: block;
+    
+    /* float: left; */
+}
+
+#sidebar a:hover {
+    color:blue
+}
+
+#sidebar h2 {
+    text-align: center;
+    font-style: oblique;
+    /* margin-top: 5px; */
+}
+
+/* .responsive {
+    width: 45%;
+    height: 45%;
+  } */
+
+/* #sidebar1 {
+    /* clear: both; */
+    display: inline-block;
+}
+
+/* #sidebar2 {
+    clear: both;
+    display: inline-block; */
+} */
+
+#explanation {
+    background-color: rgb(0, 0, 0);
+    /* margin-left: 250px; */
+    /* padding: 6px 8px 6px 16px;
+    float: left; */
+    /* z-index: -1; */
+    /* background-color: blanchedalmond; */
+    /* position: relative;
+    border-style: inset; */
+    /* margin: 5px; */
+}
+#explanation img {
+    float: left;
+    padding-right: 10px;
+}
+
+#explanation p {
+    margin: 10px;
+    font-size:x-large
+}
+
+
+
+/* .main p {
+    margin-top: 100px;
+} */
+
+.navbar {
+    align-items: right;
+    background-color: rgb(168, 163, 163);
+}
+
+.navbar h1 {
+    font-style: oblique;
+    font-size: 50px;
+}
+
+.navbar a {
+    color: black;
+}
+
+.navbar a:hover {
+    color: blue;
+}
+
+@media screen and (max-width: 600px) {
+    .navbar {
+        background-color: rgb(90, 177, 247);
+    }
+}
+
+.visualisation p {
+    clear: both;
+}
+
+.dropdown {
+    float: right;
+    overflow: visible
+}
+
+.dropdown_links {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    /* min-width: 160px; */
+    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+    /* z-index: 1;  */
+    /* clear: both; */
+    color: black;
+    z-index: 1;
+  }
+
+.dropdown:hover .dropdown_links {
+    color: black;
+    display: block;
+    clear: both;}    
+
+.comp {
+    /* margin: 50px; */
+    margin: auto;
+}
+
+#comparisons {
+    background-color: white;
+}
+
+#comparisons h1 {
+    text-align: left;
+    font-style: oblique;
+}
+
+#comparisons h2 {
+    text-align: left;
+    font-style: oblique;
+}
+
+.visualisation {
+    margin: auto;
+    background-color: rgb(156, 207, 251);
+}
+
+.visualisation h1 {
+    font-style: oblique;
+    margin: 10px;
+
+}
+
+.visualisation img {
+    margin-left: 25px;
+}
+
+.visualisation p {
+    margin: 20px;
+    padding-bottom: 15px;
+}
+
+.table-responsive {
+    margin: auto;
+    padding: 20px;
+    /* background-color: bisque; */
+}
+
+.table-responsive h1 {
+    font-style: oblique;
+}
+/* .col-sm-4 {
+    text-align: center;
+    color: rgb(91, 86, 86);
+    border: 2px solid pink;
+    float: left;
+    display: inline;
+    padding: 10px 10px;
+    margin: 10px 10px;
+} */ */
+
+/* .row {
+    display: block;
+} */
+

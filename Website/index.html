@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF8">
+    <title> Web Design Challenge</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- navbar  -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>  
+        </button> -->
+        <div class="collapse navbar-collapse w-100 order-3 dual-collapse2 " id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">  
+                <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <div class="dropdown">
+                <a class="nav-link">Plots <span class="sr-only">(current)</span></a>
+                <!-- <button type="button"> Plots</button> -->
+                <div class="dropdown_links">
+                    <a href="temperature.html">Temperature </a>
+                    <a href="humidity.html">Humidity </a>
+                    <a href="cloudiness.html">Cloudiness </a>
+                    <a href="wind_speed.html">Wind Speed </a>
+                </div>
+            </div>
+              <li class="nav-item active">
+                <a class="nav-link" href="comparison.html">Comparisons <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="data.html">Data <span class="sr-only">(current)</span></a>
+              </li>
+            </ul>
+        </div>
+    </nav>
+
+
+<!-- container -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3" id="sidebar">
+              <div id="sidebar1">
+                <h2>Visualisations</h2>
+                <hr></hr>
+                <a href="temperature.html" class="responsive">Temperature <img src="../Resources/Fig1.png" alt="City Latitude vs. Temperature" width="200" height="150" > </a>
+                <a href="humidity.html" class="responsive">Humidity <img src="../Resources/Fig2.png"width="200" height="150"></a>
+              </div>
+              <div id="sidebar2">
+                <a href="cloudiness.html">Cloudiness <img src="../Resources/Fig3.png" width="200" height="150"></a>
+                <a href="wind_speed.html">Wind Speed <img src="../Resources/Fig4.png" width="200" height="150"></a>
+              </div>
+            </div> 
+            <div class="col-md-9" id="explanation">
+              <h1> Latitude Vs. X</h1><hr></hr>
+                <img src="../Resources/Fig1.png" alt="landing page image" width=300 height=250>
+                <p> The purpose of this project was to analyse how weather changes as you get closer to the equator. 
+                To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.
+                <br></br>
+                After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs latitude. 
+                Factors included: temperature, coudiness, wind speed and humidity. This site provides the source data and visualisations 
+                created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.
+                </p>
+            </div>
+        </div>
+    </div>        
+</body>
+</html>
